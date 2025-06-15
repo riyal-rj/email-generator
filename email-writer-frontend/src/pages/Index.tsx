@@ -11,9 +11,6 @@ import type { AxiosResponse } from 'axios';
 import { Loader2, Mail, Copy, Sparkles, Send, CheckCircle } from 'lucide-react';
 import { toast } from 'sonner';
 
-interface EmailResponse {
-  data: string;
-}
 
 const Index = () => {
   const [emailContent, setEmailContent] = useState<string>('');
