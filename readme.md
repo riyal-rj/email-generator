@@ -11,6 +11,8 @@ Email Generator helps users draft email replies using AI. It features:
 ## Detailed Features
 
 ### Chrome Extension Features
+> Developed following [Chrome Extension Tutorial](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world)
+
 - **Gmail Integration**: Seamlessly adds "AI Reply" button to Gmail's compose interface
 - **Context Awareness**: Automatically extracts full email thread for better response generation
 - **Multiple Tone Options**: 
@@ -20,6 +22,7 @@ Email Generator helps users draft email replies using AI. It features:
 - **Real-time Preview**: View and edit generated replies before insertion
 - **One-Click Insert**: Directly insert replies into Gmail compose box
 - **Notification System**: Toast notifications for feedback and status updates
+
 
 ### Web Application Features
 - **Platform Independence**: Use AI email assistance without Gmail
@@ -44,6 +47,7 @@ Email Generator helps users draft email replies using AI. It features:
 - **Secure Communication**: HTTPS and CORS enabled
 
 ## Backend Setup
+> Developed using [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) and initialized via [Spring Initializr](https://start.spring.io/)
 
 ### Prerequisites
 - Java 17+
