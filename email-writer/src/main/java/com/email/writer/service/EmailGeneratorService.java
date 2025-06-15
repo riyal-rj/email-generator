@@ -49,7 +49,7 @@ public class EmailGeneratorService {
     private String buildPrompt(EmailRequestDTO emailRequest)
     {
         StringBuilder prompt = new StringBuilder();
-        prompt.append("Generate an email for the following email content based on the tone of the email. Please don't generate subject line.\n\n");
+        prompt.append("Generate an email reply for the following email content based on the tone of the email. Please don't generate subject line.\n\n");
         if(emailRequest.getTone() != null && !emailRequest.getTone().isEmpty()) {
             prompt.append("Usw a tone: ").append(emailRequest.getTone()).append("\n\n");
         }

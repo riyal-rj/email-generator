@@ -4,14 +4,12 @@ import com.email.writer.dto.EmailRequestDTO;
 import com.email.writer.service.EmailGeneratorService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/email")
 @AllArgsConstructor
+@CrossOrigin(origins="http://localhost:5173", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.OPTIONS})
 public class EmailGeneratorController {
 
     private final EmailGeneratorService emailGeneratorService;
